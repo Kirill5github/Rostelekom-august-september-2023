@@ -1,9 +1,9 @@
-"""‹окаторы"""
+"""Р›РѕРєР°С‚РѕСЂС‹"""
 
 from selenium.webdriver.common.by import By
 
 class PageLocators:
-    """‹окаторы длЯ авторизации, входа и выхода"""
+    """Р›РѕРєР°С‚РѕСЂС‹ РґР»СЏ РІС…РѕРґР°/РІС‹С…РѕРґР°"""
     EMAIL_TAB = (By.CSS_SELECTOR, '#t-btn-tab-mail')
     EMAIL_INPUT = (By.CSS_SELECTOR, '#username')
     PASSWORD = (By.CSS_SELECTOR, '#password')
@@ -11,7 +11,7 @@ class PageLocators:
     BUTTON_LOGOUT = (By.CSS_SELECTOR, '#logout-btn')
 
 
-    """‹окаторы длЯ регистрации на сайте"""
+    """Р›РѕРєР°С‚РѕСЂС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё"""
     FIRST_NAME = (By.XPATH, '//input[@name="firstName"]')
     LAST_NAME = (By.XPATH, '//input[@name="lastName"]')
     REGION = (By.XPATH, '//input[@xpath="1"]')
@@ -21,9 +21,9 @@ class PageLocators:
     BUTTON_REGISTER = (By.XPATH, '//button[@name="register"]')
 
 
-    """‹окаторы ссылок на формы регистрации и восстановлениЯ паролЯ"""
+    """Р›РѕРєР°С‚РѕСЂС‹ С„РѕСЂРјС‹ СЂРµРіРёСЃС‚СЂР°С†РёРё Рё РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ РїР°СЂРѕР»СЏ """
     REGISTRATION_FORM_LINK = (By.CSS_SELECTOR, '#kc-register')
     FORGOT_PASSWORD_FORM_LINK = (By.CSS_SELECTOR, '#forgot_password')
 
-    """‹окатор ссылки на пользовательское соглашение"""
+    """Р»РѕРєР°С‚РѕСЂ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ СЃРѕРіР»Р°С€РµРЅРёРµ"""
     TERMS_OF_USE_LINK = (By.XPATH, '//form/div/a[@href="https://b2c.passport.rt.ru/sso-static/agreement/agreement.html"]')
