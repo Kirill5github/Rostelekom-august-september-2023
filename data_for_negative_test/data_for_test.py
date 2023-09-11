@@ -13,7 +13,7 @@ class DataForTests:
     invalid_mail = 'invalid.test@mail.ru'  # Незарегестрированный Email
     invalid_password = 'test'  #  Незарегестрированный пароль
 
-    invalid_login = 'testing123'  #  НЕверный логин
+    invalid_login = 'testing123'  #  Неверный логин
 
     invalid_personal_account = '111111111111'  #  Неверный лицевой счет
     personal_account_less_12_numbers = '11111111111'  # 11 цифр
